@@ -8,7 +8,7 @@ const CartItems = (props) => {
   </React.Fragment>
   )
   return (
-    <main className="container">
+    <>
       <h1>Cart Items</h1>
       <ul className="list-group">
         <li className="list-group-item">
@@ -20,7 +20,7 @@ const CartItems = (props) => {
         </li>
         {cartItemsList}
       </ul>
-    </main>
+    </>
   )
 }
 
